@@ -1,0 +1,35 @@
+{
+  "baseURL": "https://staging.spaceso2o.com/launch",
+  "agentPhoneNO": "07060406267",
+  "merchantPhoneNO": "07060406269",
+  "agentFirstPin": "2",
+  "agentSecondPin": "3",
+  "agentThirdPin": "4",
+  "agentFourthPin": "5",
+  "agentFifthPin": "6",
+  "agentSixthPin": "7",
+  "merchantFirstPin": "1",
+  "merchantSecondPin": "2",
+  "merchantThirdPin": "3",
+  "merchantFourthPin": "4",
+  "merchantFifthPin": "5",
+  "merchantSixthPin": "6",
+  "salesAmount": "5000",
+  "paymentAmount": "6000",
+  "secondpaymentAmount": "2000",
+  "customerPhoneNo": "07060406260",
+  "customerName": "AutomatedTestUser",
+  "Address": "No 24Test Address ",
+  "createdCustName": "Tester",
+  "createdCustPhoneNo": "09090919293",
+  "productName": "TestProd",
+  "secondproductName": "AutoTestProduc",
+  "costPrice": "2000",
+  "quantityInstock": "1",
+  "productDescription": "AutomatedTesting",
+  "retailPrice": "3000"
+
+
+
+
+}
