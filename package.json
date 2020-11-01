@@ -1,4 +1,6 @@
 {
+
+  "cypress-postgresql": "*",
   "name": "cypress",
   "version": "1.0.0",
   "description": "Automated Software Testing With Cypress",
@@ -12,5 +14,17 @@
     "automation"
   ],
   "author": "Ayobami Elutade",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayobamee/CypressAutomation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ayobamee/CypressAutomation/issues"
+  },
+  "homepage": "https://github.com/Ayobamee/CypressAutomation#readme",
+  "dependencies": {
+    "cypress-postgresql": "^1.0.8",
+    "pg": "^8.4.1"
+  }
 }

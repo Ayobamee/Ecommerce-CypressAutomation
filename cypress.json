@@ -1,4 +1,15 @@
+
+
 {
     "chromeWebSecurity": false,
-    "projectId": "4auyde"
+    "projectId": "4auyde",
+
+    "db": {
+        "user": "postgres",
+        "password": "EilwgMomHdXbJm8EwzVN",
+        "host": "dbc:postgresql://spaces-staging-instance-1.cr835kymrvut.eu-central-1.rds.amazonaws.com",
+        "database": "/spaces"
+    }
 }
+
+

@@ -13,7 +13,7 @@ getImageForAgent()
 
 {
 
-    return  cy.get('body:nth-child(2) div:nth-child(2) header.sc-qXFOy.hZbUVv > a:nth-child(1)')
+    return  cy.get('.sc-pbYdQ')
 }
 
 
@@ -22,7 +22,7 @@ getImageProfile()
 
 {
 
-    return  cy.get('body:nth-child(2) div:nth-child(2) header.sc-qXFOy.hZbUVv > a:nth-child(1)')
+    return  cy.get('.sc-oVpqz')
 }
 
 
@@ -30,7 +30,7 @@ getSaleIcon()
 
 {
 
-    return  cy.get('[href="/actions/shop_sales_add"] > .sc-pQrUA')
+    return  cy.get(':nth-child(2) > .sc-qPzgd > :nth-child(2)')
 }
 
 
@@ -38,7 +38,7 @@ getShopIcon()
 
 {
 
-    return  cy.get('[href="/actions/shop"] > .sc-pQrUA')
+    return  cy.get(':nth-child(2) > .sc-qPzgd > :nth-child(1)')
 }
 
 
@@ -46,7 +46,7 @@ getAgentIcon()
 
 {
 
-    return  cy.get('[href="/actions/agents"] > .sc-pQrUA')
+    return  cy.get(':nth-child(1) > .sc-qPzgd > :nth-child(3)')
 }
 
 
@@ -54,7 +54,7 @@ getMerchantIcon()
 
 {
 
-    return  cy.get('[href="/actions/merchants"] > .sc-pQrUA')
+    return  cy.get(':nth-child(1) > .sc-qPzgd > :nth-child(2)')
 }
 
 getShop() 
@@ -103,6 +103,19 @@ getSuccessfulKYC()
 }
 
 
+getNotification()
+{
+    return cy.get('.sc-pRhbc')
+}
+
+
+getViewNotification() {
+    return cy.get(':nth-child(1) > .sc-prQdK')
+}
+
+getReferalNotification() {
+    return cy.get(':nth-child(2) > .sc-prQdK')
+}
 
 }
 

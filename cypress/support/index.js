@@ -16,5 +16,16 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+
+//import postgreSQL from 'cypress-postgresql';
+//postgreSQL.loadDBCommands();
+
+
+
+import postgreSQL from 'cypress-postgresql';
+postgreSQL.loadDBCommands();

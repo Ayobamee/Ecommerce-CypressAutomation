@@ -4,13 +4,13 @@ class HomePage
     getOnboardButton() 
     
     {
-        return cy.get('div:nth-child(2) div.sc-pcxhi.kMxZOc section.sc-pkvvt.fbnKIp a.sc-AxheI.eXzlnr:nth-child(3) > button.sc-AxjAm.sc-AxhUy.dSeJVd')
+        return cy.get('.sc-AxjAm')
     }
 
     getPhoneNoField() 
     
     {
-        return cy.get('.sc-fzoiQi')
+        return cy.get('.sc-fzpjYC')
     }
 
     getContinue() 

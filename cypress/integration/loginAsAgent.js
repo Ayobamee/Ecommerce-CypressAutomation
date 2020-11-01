@@ -31,7 +31,7 @@ it('Validate login as Agent with correct Credentials', function() {
   //Wait for 2 secs
   cy.wait(2000)
   //Click Continue
-  homePage.getOnboardButton().click()
+  homePage.getOnboardButton().click({force :true})
   
    //Login to the application
    cy.typeLogin({ phoneNo:this.data.agentPhoneNO, pin1:this.data.agentFirstPin,
