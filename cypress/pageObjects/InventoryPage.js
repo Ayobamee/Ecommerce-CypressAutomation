@@ -6,37 +6,40 @@ class InventoryPage
 
    {
 
-    return cy.get('[href="/actions/shop_inventory"] > .sc-pRDlx > .sc-pZzYQ')
+    return cy.get('[href="/actions/shop_inventory"] > .sc-pAArZ > .sc-pIVsU > .sc-fzoiQi')
    }
 
    getSelectProduct() 
 
    {
-      return cy.get(':nth-child(9) > .sc-pczax')
+      return cy.get(':nth-child(2) > .sc-qYsuA > .sc-fznKkj > .sc-fznZeY > .sc-fzokOt')
    }
 
 
-  getCloseTab()
+  getRightab()
   {
-     return cy.get('.sc-fzoVTD')
+     return cy.get('.sc-fzokvW')
   }
 
 
-   getLeftTab () 
-   {
-    return cy.get('.sc-fzpisO')
 
-   }
 
    getDelete() 
    {
 
-      return cy.get('.sc-fzpkqZ > :nth-child(2) > .sc-AxjAm')
+      return cy.get('.sc-fzoYHE > :nth-child(2) > .sc-AxjAm')
    }
 
    getConfirmDele()
    {
-      return cy.get('.sc-fznOgF > :nth-child(2)')
+      return cy.get('.sc-fzobTh > :nth-child(2)')
+   }
+
+  
+   getErrorMessage()
+   {
+
+      return cy.get('.Toastify__toast-body')
    }
 
 

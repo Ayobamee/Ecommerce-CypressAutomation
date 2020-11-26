@@ -65,7 +65,7 @@ cy.viewport(320, 568)
   
 
   //Check that Agent Icon is invisible
-  landingPage.getAgentIcon().should('be.visible')
+  landingPage.getAgentIcon().should('not.be.visible')
 
   //Check that Merchant Icon is invisible
   landingPage.getMerchantIcon().should('not.be.visible')

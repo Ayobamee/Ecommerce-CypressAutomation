@@ -6,25 +6,36 @@ getCustomers()
 
 {
 
-    return  cy.get('[href="/actions/shop_customers"] > .sc-pQrUA')
+    return  cy.get(':nth-child(1) > .sc-qPzgd > :nth-child(1)')
 }
 
 getaddCustomer() 
 {
-    return cy.get('.sc-fznyYp')
+    return cy.get('.sc-fzqzlV')
 
 }
 
 getCustomerName()
 {
-    return cy.get('.sc-fznxsB > :nth-child(1)')
+    return cy.get(':nth-child(1) > .sc-fzpjYC')
 }
 
 getCustomerPhoneNo()
 
 {
-    return cy.get(':nth-child(2) > .sc-fzoiQi')
+    return cy.get(':nth-child(2) > .sc-fzpjYC')
+
 }
+
+
+getSelectAddedCustomer()
+
+{
+
+    return cy.get(':nth-child(1) > .sc-pKMan > .sc-fzoiQi')
+}
+
+
 
 getAddCustomerButton() 
 {

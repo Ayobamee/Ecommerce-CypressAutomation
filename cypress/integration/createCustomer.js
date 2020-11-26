@@ -58,10 +58,13 @@ it('Validate that user can create a customer', function() {
   
   //Click Create Customer
   createCustomerPage.getAddCustomerButton().click()
+
+
+  //Select Customer
+  createCustomerPage.getSelectAddedCustomer().click()
   
 
 })
-
 
 
 })

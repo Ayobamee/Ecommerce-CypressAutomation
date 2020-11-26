@@ -22,7 +22,7 @@ getImageProfile()
 
 {
 
-    return  cy.get('.sc-oVpqz')
+    return  cy.get('.sc-pbYdQ')
 }
 
 
@@ -59,7 +59,7 @@ getMerchantIcon()
 
 getShop() 
 {
-    return cy.get('[href="/actions/shop"] > .sc-pQrUA')
+    return cy.get(':nth-child(2) > .sc-qPzgd > :nth-child(1)')
 }
 
 getMore() 

@@ -6,14 +6,14 @@ class AddProductPage
 
    {
 
-    return cy.get('[href="/actions/shop_products_add"] > .sc-pQrUA')
+    return cy.get('.sc-qPzgd > :nth-child(4)')
    }
 
 
     getProductCategory() 
     
     {
-        return cy.get(':nth-child(2) > .css-drnb96-control > .css-1hwfws3')
+        return cy.get(':nth-child(2) > .css-c6oy9z-control > .css-1hwfws3')
     }
 
 
@@ -26,7 +26,7 @@ class AddProductPage
    getProductName() 
    {
 
-    return cy.get(':nth-child(1) > .sc-fzoiQi')
+    return cy.get(':nth-child(1) > .sc-fzpjYC')
    }
 
 
@@ -39,7 +39,7 @@ class AddProductPage
     
     getUnitCategory() 
     {
-        return cy.get(':nth-child(3) > .css-drnb96-control > .css-1hwfws3')
+        return cy.get(':nth-child(3) > .css-c6oy9z-control')
     }
 
   getSpecificUnit()
@@ -50,27 +50,27 @@ class AddProductPage
   getCostPrice()
   {
 
-    return cy.get(':nth-child(4) > .sc-fzoiQi')
+    return cy.get(':nth-child(4) > .sc-fzpjYC')
   }
 
  getQuantityStock() 
  {
 
-    return cy.get(':nth-child(5) > .sc-fzoiQi')
+    return cy.get(':nth-child(5) > .sc-fzpjYC')
  }
 
 
  getProductDescription()
 
  {
-  return cy.get('.eTSPPt')
+  return cy.get('.lbHjaz')
 
  }
 
 
 getRetailPrice()
 {
-    return cy.get('.hTuVXN > .sc-fzoiQi')
+    return cy.get('.dulHoT')
 }
 
 getSaveProduct() {
@@ -78,7 +78,7 @@ getSaveProduct() {
 }
 
 getSuccessMessage() {
-    return cy.get('body:nth-child(2) div:nth-child(2) div.Toastify:nth-child(5) div.Toastify__toast-container.Toastify__toast-container--bottom-center > div.Toastify__toast.Toastify__toast--success')
+    return cy.get('.Toastify__toast-body')
 }
 
 
