@@ -4,7 +4,7 @@ class HomePage
     getOnboardButton() 
     
     {
-        return cy.get('.sc-AxjAm')
+        return cy.get('.sc-bdnylx')
     }
 
     getPhoneNoField() 

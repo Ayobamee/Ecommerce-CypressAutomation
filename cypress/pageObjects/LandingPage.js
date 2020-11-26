@@ -13,7 +13,16 @@ getImageForAgent()
 
 {
 
-    return  cy.get('.sc-pbYdQ')
+    return  cy.get('.sc-leegwF')
+}
+
+
+
+getMerchBuyIcon()
+
+{
+
+    return  cy.get(':nth-child(1) > .sc-TXQaF > .sc-gpAxKz')
 }
 
 
@@ -30,7 +39,7 @@ getSaleIcon()
 
 {
 
-    return  cy.get(':nth-child(2) > .sc-qPzgd > :nth-child(2)')
+    return  cy.get(':nth-child(2) > .sc-TXQaF > :nth-child(2)')
 }
 
 
@@ -38,7 +47,7 @@ getShopIcon()
 
 {
 
-    return  cy.get(':nth-child(2) > .sc-qPzgd > :nth-child(1)')
+    return  cy.get(':nth-child(2) > .sc-TXQaF > :nth-child(1)')
 }
 
 
@@ -46,7 +55,7 @@ getAgentIcon()
 
 {
 
-    return  cy.get(':nth-child(1) > .sc-qPzgd > :nth-child(3)')
+    return  cy.get(':nth-child(3) > .sc-TXQaF > :nth-child(3)')
 }
 
 
@@ -54,7 +63,7 @@ getMerchantIcon()
 
 {
 
-    return  cy.get(':nth-child(1) > .sc-qPzgd > :nth-child(2)')
+    return  cy.get(':nth-child(3) > .sc-TXQaF > :nth-child(2)')
 }
 
 getShop() 

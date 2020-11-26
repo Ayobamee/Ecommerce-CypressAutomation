@@ -13,10 +13,10 @@
 // Cypress.Commands.add("login", (email, password) => { ... })
 
 Cypress.Commands.add('typeLogin', (user) => {
-    cy.get('.sc-fzpjYC')
+    cy.get('.sc-jgPznn')
       .type(user.phoneNo)
 
-    cy.get('.sc-AxjAm').click()
+    cy.get('.sc-bdnylx').click()
 
       cy.get('#1')
       .type(user.pin1)
@@ -36,7 +36,7 @@ Cypress.Commands.add('typeLogin', (user) => {
       cy.get('#6')
       .type(user.pin6)
   
-      cy.get('.sc-AxjAm').click()
+      cy.get('.sc-bdnylx').click()
       
   })
   

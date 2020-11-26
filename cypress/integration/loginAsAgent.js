@@ -62,12 +62,14 @@ it('Validate login as Agent with correct Credentials', function() {
   //Check that My Shop is visible.
   landingPage.getShopIcon().should('be.visible')
   
-
-  //Check that Agent Icon is invisible
+  //Check that Agent Icon is visible
   landingPage.getAgentIcon().should('be.visible')
 
-  //Check that Merchant Icon is invisible
+  //Check that Merchant Icon is visible
   landingPage.getMerchantIcon().should('be.visible')
+
+  //Check that Merch Buy Icon is visible
+  landingPage.getMerchBuyIcon().should('be.visible')
   
 
 })
