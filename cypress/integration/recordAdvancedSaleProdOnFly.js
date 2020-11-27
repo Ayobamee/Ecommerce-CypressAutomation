@@ -54,12 +54,12 @@ it('Validate Agent can record complete sale', function() {
   salesRecordPage.getAddSales().click()
 
   //Accept prompt.
-  salesRecordPage.getPrompt().click()
+  salesRecordPage.getPrompt().click({force :true})
 
   salesRecordPage.getMakeAdvancedSale().click()
 
   //Accept prompt.
-  salesRecordPage.getPrompt().click()
+  salesRecordPage.getPrompt().click({force :true})
 
   //Add product
   salesRecordPage.getAddproducts().click()
@@ -78,13 +78,17 @@ it('Validate Agent can record complete sale', function() {
   salesRecordPage.getQty().type(this.data.quantityInstock)
 
   //Add product on fly
-  salesRecordPage.getAddProd().click()
+  salesRecordPage.getAddProd().click({force :true})
 
   //Add product finally
-  salesRecordPage.getAddSpecificProd().click()
+  salesRecordPage.getAddSpecificProd().click({force :true})
+
+  salesRecordPage.getReAddProd().click({force: true})
+
+  
 
   //Input Payment amount
-  salesRecordPage.getPayAmt().type(this.data.costPrice)
+  //salesRecordPage.getPayAmt().type(this.data.costPrice)
 
   //Add advanced sale
   salesRecordPage.getAddAdvancedSales().click()

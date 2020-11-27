@@ -51,14 +51,12 @@ it('Validate login as Agent with correct Credentials', function() {
   //Check that the spaces logo displays on landing page.
   landingPage.getSpacesLogo().should('be.visible')
 
-  
   //Check that User image profile shows on landing page.
   landingPage.getImageForAgent().should('be.visible')
   
   //Check that the Add a sale icon is visible.
   landingPage.getSaleIcon().should('be.visible')
   
-
   //Check that My Shop is visible.
   landingPage.getShopIcon().should('be.visible')
   

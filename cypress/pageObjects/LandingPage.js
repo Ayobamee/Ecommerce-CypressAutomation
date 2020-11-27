@@ -31,7 +31,7 @@ getImageProfile()
 
 {
 
-    return  cy.get('.sc-pbYdQ')
+    return  cy.get('.sc-leegwF')
 }
 
 
@@ -114,16 +114,16 @@ getSuccessfulKYC()
 
 getNotification()
 {
-    return cy.get('.sc-pRhbc')
+    return cy.get('.sc-iOuBNv')
 }
 
 
 getViewNotification() {
-    return cy.get(':nth-child(1) > .sc-prQdK')
+    return cy.get('.sc-jfkKcj > :nth-child(1)')
 }
 
 getReferalNotification() {
-    return cy.get(':nth-child(2) > .sc-prQdK')
+    return cy.get(':nth-child(2) > .sc-iuhWtz')
 }
 
 }

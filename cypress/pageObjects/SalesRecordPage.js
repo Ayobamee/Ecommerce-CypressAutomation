@@ -6,20 +6,20 @@ getAddSales()
 
 {
 
-    return  cy.get('[href="/actions/shop_sales_add"] > .sc-pQrUA')
+    return  cy.get(':nth-child(2) > .sc-TXQaF > :nth-child(2)')
 }
 
 
 getPrompt()
 {
 
-    return cy.get('.sc-fzomME > .sc-AxjAm')
+    return cy.get('.sc-hmbsMR')
 }
 
 getSalesAmount() 
 
 {
-  return cy.get('.sc-fzoiQi')
+  return cy.get('.sc-jgPznn')
 
 }
 
@@ -51,7 +51,7 @@ getCustomerName() {
 
 getMakeSale()   
 {
-    return cy.get('form > .sc-AxjAm')
+    return cy.get('form > .sc-bdnylx')
 }
 
 
@@ -63,25 +63,31 @@ getAffirmSuccessfulSale()
 
 getMakeAdvancedSale() {
 
-    return cy.get('.sc-ptEpz > .sc-fznxKY')
+    return cy.get('.sc-jEWMFi')
     
 }
 
 getAddproducts() 
 {
-    return cy.get('.sc-fzooss > .sc-AxjAm')
+    return cy.get('.sc-jlZIZy > .sc-bdnylx')
 }
 
 getAddspecificproduct()
 
 {
-    return cy.get('.sc-psdsT > .sc-fzoyTs')
+    return cy.get('.sc-mNjFF > .sc-kEqYlL')
 }
 
 
 getSecondSpecProd()
 {
-    return cy.get(':nth-child(1) > .sc-pQsrT')
+    return cy.contains('AutoTestProducts')
+}
+
+
+getAddSpecficItem()
+{
+    return cy.contains('Add 1 Product')
 }
 
 getSecondProdName()
@@ -104,19 +110,19 @@ getQty()
 
 getAddProd()
 {
-    return cy.get('.sc-fzoJMP')
+    return cy.get('.sc-mNjFF > .sc-kEqYlL')
 }
 
 
 getAddProdFinal()
 {
-    return cy.get('.sc-fznNTe > .sc-AxjAm')
+    return cy.get(':nth-child(6) > .sc-eKaOPE > .sc-iuhWtz > .sc-hKckmk > .sc-bmjVWh')
 }
 
 getConfirmAdd()
 
 {
-    return cy.get('.sc-fznNTe > .sc-AxjAm')
+    return cy.get('.sc-iTVIwl')
 }
 
 
@@ -129,28 +135,33 @@ getPayAmt()
 getAddAdvancedSales()
 
 {
-    return cy.get('.ldJsig')
+    return cy.get('.fCcVuP')
 }
 
 
 getAddSpecificProd()
 {
 
-    return cy.get('.sc-fznNTe > .sc-AxjAm')
+    return cy.get(':nth-child(6) > .sc-eKaOPE > .sc-iuhWtz > .sc-hKckmk > .sc-bmjVWh')
 }
 
+
+getReAddProd() 
+{
+    return cy.get('.sc-mNjFF > .sc-kEqYlL')
+}
 
 
 getPayAmt() 
 {
 
-   return cy.get('.sc-fznJRM > .sc-fzoiQi') 
+   return cy.get('.sc-khIgXV > .sc-jgPznn') 
 }
 
 
 getAdvancedSaleConfirmation()
 {
-    return cy.get('body:nth-child(2) div:nth-child(2) div.Toastify:nth-child(5) div.Toastify__toast-container.Toastify__toast-container--bottom-center > div.Toastify__toast.Toastify__toast--success')
+    return cy.get('.Toastify__toast')
 }
 
 

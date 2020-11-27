@@ -54,21 +54,22 @@ it('Validate Agent can record complete Advanced sale', function() {
   salesRecordPage.getAddSales().click()
 
   //Accept prompt.
-  salesRecordPage.getPrompt().click()
+  salesRecordPage.getPrompt().click({force :true})
 
   salesRecordPage.getMakeAdvancedSale().click()
 
   //Accept prompt.
-  salesRecordPage.getPrompt().click()
+  salesRecordPage.getPrompt().click({force :true})
 
   //Add product
   salesRecordPage.getAddproducts().click()
 
+  
   //Add specific product
   salesRecordPage.getSecondSpecProd().click({force :true})
 
-  //Confirm product added
-  salesRecordPage.getConfirmAdd().click()
+  //Confirm button to add product
+  salesRecordPage.getAddSpecficItem().click()
 
   //Input payment amount
   salesRecordPage.getPayAmt().type(this.data.secondpaymentAmount)

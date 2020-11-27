@@ -54,7 +54,7 @@ it('Validate Agent can record complete Simple sale', function() {
   salesRecordPage.getAddSales().click()
 
   //Accept prompt.
-  salesRecordPage.getPrompt().click()
+  salesRecordPage.getPrompt().click({force :true})
 
   //Input sales Amount
   salesRecordPage.getSalesAmount().type(this.data.salesAmount)

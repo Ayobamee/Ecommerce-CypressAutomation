@@ -67,7 +67,7 @@ class HomePage
     getFailedLogin() 
     
     {
-        return cy.get('body:nth-child(2) div:nth-child(2) div.Toastify > div.Toastify__toast-container.Toastify__toast-container--bottom-center').should('be.visible')
+        return cy.get('.Toastify__toast-body').should('be.visible')
     }
 
 
