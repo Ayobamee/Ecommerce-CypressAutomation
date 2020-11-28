@@ -6,19 +6,19 @@ class InventoryPage
 
    {
 
-    return cy.get('[href="/actions/shop_inventory"] > .sc-pAArZ > .sc-pIVsU > .sc-fzoiQi')
+    return cy.get('[href="/actions/shop_inventory"] > .sc-bvRlZh > .sc-dcfGPC > .sc-kEqYlL')
    }
 
    getSelectProduct() 
 
    {
-      return cy.get(':nth-child(2) > .sc-qYsuA > .sc-fznKkj > .sc-fznZeY > .sc-fzokOt')
+      return cy.contains('AutomatedProd3')
    }
 
 
   getRightab()
   {
-     return cy.get('.sc-fzokvW')
+     return cy.get('.sc-jQAyEw')
   }
 
 
@@ -27,12 +27,12 @@ class InventoryPage
    getDelete() 
    {
 
-      return cy.get('.sc-fzoYHE > :nth-child(2) > .sc-AxjAm')
+      return cy.get('.sc-gGLyOc > :nth-child(2)')
    }
 
    getConfirmDele()
    {
-      return cy.get('.sc-fzobTh > :nth-child(2)')
+      return cy.contains('Yes')
    }
 
   

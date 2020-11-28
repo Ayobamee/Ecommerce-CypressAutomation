@@ -6,7 +6,7 @@ class AddProductPage
 
    {
 
-    return cy.get('.sc-qPzgd > :nth-child(4)')
+    return cy.get(':nth-child(2) > .sc-TXQaF > :nth-child(3)')
    }
 
 
@@ -26,7 +26,7 @@ class AddProductPage
    getProductName() 
    {
 
-    return cy.get(':nth-child(1) > .sc-fzpjYC')
+    return cy.get(':nth-child(1) > .sc-jgPznn')
    }
 
 
@@ -50,31 +50,31 @@ class AddProductPage
   getCostPrice()
   {
 
-    return cy.get(':nth-child(4) > .sc-fzpjYC')
+    return cy.get(':nth-child(4) > .sc-jgPznn')
   }
 
  getQuantityStock() 
  {
 
-    return cy.get(':nth-child(5) > .sc-fzpjYC')
+    return cy.get(':nth-child(5) > .sc-jgPznn')
  }
 
 
  getProductDescription()
 
  {
-  return cy.get('.lbHjaz')
+  return cy.get('.sc-hTRkEk')
 
  }
 
 
 getRetailPrice()
 {
-    return cy.get('.dulHoT')
+    return cy.get('.ceQRAG > .sc-jgPznn')
 }
 
 getSaveProduct() {
-    return cy.get('.sc-AxjAm')
+    return cy.get('.sc-bdnylx')
 }
 
 getSuccessMessage() {

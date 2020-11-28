@@ -68,7 +68,7 @@ getMerchantIcon()
 
 getShop() 
 {
-    return cy.get(':nth-child(2) > .sc-qPzgd > :nth-child(1)')
+    return cy.get(':nth-child(2) > .sc-TXQaF > :nth-child(1)')
 }
 
 getMore() 
