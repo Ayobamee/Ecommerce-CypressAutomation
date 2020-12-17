@@ -6,7 +6,7 @@ class AddProductPage
 
    {
 
-    return cy.get(':nth-child(2) > .sc-TXQaF > :nth-child(3)')
+    return cy.get(':nth-child(2) > .sc-jaBfpI > :nth-child(3)')
    }
 
 
@@ -70,7 +70,7 @@ class AddProductPage
 
 getRetailPrice()
 {
-    return cy.get('.ceQRAG > .sc-jgPznn')
+    return cy.get('.dAwTcJ > .sc-jgPznn')
 }
 
 getSaveProduct() {
